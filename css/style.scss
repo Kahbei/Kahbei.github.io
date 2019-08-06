@@ -1,0 +1,63 @@
+$colorWhite: #fff;
+
+#home {
+    height: 100vh;
+    background-image: url("../img/home.jpg");
+    background-size: cover;
+    background-position: center;
+    color: $colorWhite;
+
+    a {
+        color: $colorWhite;
+        font-size: 3em;
+    }
+}
+
+.bFilter {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-link:hover {
+    background-color: rgba(223, 230, 233, 0.5);
+    transition: all 1s ease-out;
+}
+
+.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#project {
+    background-color: $colorWhite;
+    padding: 10vh;
+
+    .card {
+        width: 22rem;
+        margin-bottom: 12px;
+
+        i {
+            font-size: 1.5em;
+            margin: 0px 5px;
+        }
+    }
+
+    .notabene {
+        margin-top: 25px;
+        font-size: 1.2em;
+    }
+}
+
+#contact {
+    background-color: #201f1f;
+    padding: 10vh;
+    color: $colorWhite;
+
+    .coordonnees {
+        button {
+            margin: 20px 15px;
+            a {
+                color: $colorWhite;
+                text-decoration: none;
+            }
+        }
+    }
+}

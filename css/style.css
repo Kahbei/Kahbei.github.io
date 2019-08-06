@@ -1,0 +1,56 @@
+#home {
+  height: 100vh;
+  background-image: url("../img/home.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+#home a {
+  color: #fff;
+  font-size: 3em;
+}
+
+.bFilter {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-link:hover {
+  background-color: rgba(223, 230, 233, 0.5);
+  transition: all 1s ease-out;
+}
+
+.scrolled {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#project {
+  background-color: #fff;
+  padding: 10vh;
+}
+#project .card {
+  width: 22rem;
+  margin-bottom: 12px;
+}
+#project .card i {
+  font-size: 1.5em;
+  margin: 0px 5px;
+}
+#project .notabene {
+  margin-top: 25px;
+  font-size: 1.2em;
+}
+
+#contact {
+  background-color: #201f1f;
+  padding: 10vh;
+  color: #fff;
+}
+#contact .coordonnees button {
+  margin: 20px 15px;
+}
+#contact .coordonnees button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
