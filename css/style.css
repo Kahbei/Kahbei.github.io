@@ -29,7 +29,7 @@
 }
 #project .card {
   width: 22rem;
-  margin-bottom: 12px;
+  margin-bottom: 5rem;
 }
 #project .card i {
   font-size: 1.5em;
@@ -51,6 +51,18 @@
 #contact .coordonnees button a {
   color: #fff;
   text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+  #project {
+    padding: 5vh;
+  }
+  #project .card {
+    width: 18rem;
+  }
+  #project .col-12 {
+    padding: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

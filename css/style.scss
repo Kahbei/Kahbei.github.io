@@ -32,7 +32,7 @@ $colorWhite: #fff;
 
     .card {
         width: 22rem;
-        margin-bottom: 12px;
+        margin-bottom: 5rem;
 
         i {
             font-size: 1.5em;
@@ -58,6 +58,20 @@ $colorWhite: #fff;
                 color: $colorWhite;
                 text-decoration: none;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #project {
+        padding: 5vh;
+
+        .card {
+            width: 18rem;
+        }
+
+        .col-12 {
+            padding: 0;
         }
     }
 }
